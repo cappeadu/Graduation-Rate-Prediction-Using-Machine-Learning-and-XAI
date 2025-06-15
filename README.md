@@ -4,20 +4,22 @@ This repository contains the code, data, and visualizations for the research pap
 
 ## 📁 Repository Structure
 ```
-graduation-rate-ml-xai/
+graduation-rate-prediction-using-machine-learning-and-XAI/
 ├── data/
-│ ├── raw/ # Raw IPEDS data
-│ └── cleaned/ # Cleaned and preprocessed data
+│ ├── 2012/ # Raw IPEDS data
+│ ├── ..../ # Raw IPEDS data
+│ ├── ..../ # Raw IPEDS data
+│ └── merged_dataset_for_imputation_and_ML/ # Cleaned and preprocessed data from grad_rate_preprocess.ipynb. Used in grad_rate_training_predict.ipynb for predictions and XAI.
 │
 ├── notebooks/
-│ ├── 1_data_cleaning.ipynb # Data cleaning & feature engineering
-│ └── 2_model_training_XAI.ipynb # Model training and explainability
+│ ├── grad_rate_preprocess.ipynb # Data cleaning & feature engineering
+│ └── grad_rate_training_predict.ipynb # Model training and explainability
 │
 ├── plots/ # SHAP plots, PDPs, and visuals
 │
 ├── requirements.txt # List of Python dependencies
 ├── README.md # Project overview
-└── LICENSE # (optional) License information
+└── LICENSE # License information
 ```
 
 ## 🔍 Project Overview
