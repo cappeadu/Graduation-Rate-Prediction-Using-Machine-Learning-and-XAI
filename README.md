@@ -32,7 +32,9 @@ This research has been submitted. Once published, a DOI link will be added here.
 
 ## 🧠 Author
 Clement Appeadu
+
 MSc Data Science, University of South Wales
+
 [LinkedIn](https://www.linkedin.com/in/clement-appeadu-9b6a2b148)
 
 ## 📃 License
