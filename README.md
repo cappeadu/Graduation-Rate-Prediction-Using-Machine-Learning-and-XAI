@@ -1,14 +1,14 @@
 # Graduation-Rate-Prediction-Using-Machine-Learning-and-XAI
 
-This repository contains the code, data, and visualizations for the research paper titled "Harnessing XAI to Inform Educational Decision-Making: A Machine Learning Study on Graduation Rates". The study uses U.S. institutional-level data from IPEDS (2012–2017) to build predictive models of graduation rates and applies eXplainable AI (XAI) tools to interpret the results.
+This repository contains the code, data, metadata, and visualizations for the research paper titled "Harnessing XAI to Inform Educational Decision-Making: A Machine Learning Study on Graduation Rates". The study uses U.S. institutional-level data from IPEDS (2012–2017) to build predictive models of graduation rates and applies eXplainable AI (XAI) tools to interpret the results.
 
 ## 📁 Repository Structure
 ```
 graduation-rate-prediction-using-machine-learning-and-XAI/
 ├── data/
-│ ├── 2012/ # Raw IPEDS data
-│ ├── ..../ # Raw IPEDS data
-│ ├── ..../ # Raw IPEDS data
+│ ├── 2012/ # Raw IPEDS data and metadata
+│ ├── ..../ # Raw IPEDS data and metadata
+│ ├── ..../ # Raw IPEDS data and metadata
 │ └── merged_dataset_for_imputation_and_ML/ # Cleaned and preprocessed data from grad_rate_preprocess.ipynb. Used in grad_rate_training_predict.ipynb for predictions and XAI.
 │
 ├── notebooks/
