@@ -44,6 +44,14 @@ This research explores how machine learning and explainable AI can be used to pr
 
 ⚠️ Note: Due to size, the final merged dataset has been provided in the Data from IPEDS directory. The file name is merged_dataset_for_imputation_and_ML
 
+## 🛠 How to Run
+To run any of the experiments, execute the codes in .ipynb files in notebooks folder. E.g.,
+```
+grad_rate_preprocess.ipynb #this contains the processes for data cleaning, feature selection etc
+
+grad_rate_training_predict.ipynb #contains the codes for machine learning and XAI
+
+```
 ## 📄 Paper Link
 This research has been submitted. Once published, a DOI link will be added here.
 
