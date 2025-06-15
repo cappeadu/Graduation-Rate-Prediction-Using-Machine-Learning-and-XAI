@@ -3,7 +3,22 @@
 This repository contains the code, data, and visualizations for the research paper titled "Harnessing XAI to Inform Educational Decision-Making: A Machine Learning Study on Graduation Rates". The study uses U.S. institutional-level data from IPEDS (2012–2017) to build predictive models of graduation rates and applies eXplainable AI (XAI) tools to interpret the results.
 
 ## 📁 Repository Structure
-
+```
+graduation-rate-ml-xai/
+├── data/
+│ ├── raw/ # Raw IPEDS data
+│ └── cleaned/ # Cleaned and preprocessed data
+│
+├── notebooks/
+│ ├── 1_data_cleaning.ipynb # Data cleaning & feature engineering
+│ └── 2_model_training_XAI.ipynb # Model training and explainability
+│
+├── plots/ # SHAP plots, PDPs, and visuals
+│
+├── requirements.txt # List of Python dependencies
+├── README.md # Project overview
+└── LICENSE # (optional) License information
+```
 
 ## 🔍 Project Overview
 This research explores how machine learning and explainable AI can be used to predict and interpret institutional graduation rates. It:
