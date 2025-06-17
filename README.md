@@ -5,15 +5,14 @@ This repository contains the code, data, metadata, and visualizations for the re
 ## 📁 Repository Structure
 ```
 graduation-rate-prediction-using-machine-learning-and-XAI/
-├── data/
+├── Data from IPEDS/
 │ ├── 2012/ # Raw IPEDS data and metadata
 │ ├── ..../ # Raw IPEDS data and metadata
 │ ├── ..../ # Raw IPEDS data and metadata
 │ └── merged_dataset_for_imputation_and_ML/ # Cleaned and preprocessed data from grad_rate_preprocess.ipynb. Used in grad_rate_training_predict.ipynb for predictions and XAI.
 │
-├── notebooks/
-│ ├── grad_rate_preprocess.ipynb # Data cleaning & feature engineering
-│ └── grad_rate_training_predict.ipynb # Model training and explainability
+├── grad_rate_preprocess.ipynb # Data cleaning & feature engineering
+├── grad_rate_training_predict.ipynb # Model training and explainability
 │
 ├── plots/ # SHAP plots, PDPs, and visuals
 │
